@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default () => (
   <main>
@@ -12,9 +13,11 @@ export default () => (
             Science and a minor in Mathematics.
           </p>
           <p className="lead p-3">
-            <a href="/Website/public/Assets/CraigSauersResume2022.pdf" target="blank" className="btn btn-lg btn-secondary fw-bold border-white bg-white text-dark">
-              Resume
-            </a>
+            <Link to="/resume">
+              <a href="javascript" target="blank" className="btn btn-lg btn-secondary fw-bold border-white bg-white text-dark">
+                Resume
+              </a>
+            </Link>
           </p>
         </div>
       </div>
@@ -37,7 +40,7 @@ export default () => (
         <a href="https://www.twitch.tv/craig_sau" target="blank">
           <i className="fab fa-twitch" />
         </a>
-        <a href="mailto: info@craigsauers.net" target="blank">
+        <a href="mailto: craigwsauers@gmail.com" target="blank">
           <i className="far fa-envelope" />
         </a>
       </div>
