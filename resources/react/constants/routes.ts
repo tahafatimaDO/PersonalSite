@@ -5,4 +5,3 @@ export const SIGNUP = '/signup';
 export const ACCOUNT = '/account';
 export const BLOG = '/blog';
 export const CONTACT = '/contact';
-export const RESUME = '/resume';

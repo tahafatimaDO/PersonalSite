@@ -6,7 +6,6 @@ declare module '*.png';
 declare module '*.svg';
 declare module '*.pdf';
 
-
 declare module 'MyTypes' {
   export type Store = StateType<typeof import('./providers/store').default>;
   export type RootAction = ActionType<typeof import('./actions').default>;

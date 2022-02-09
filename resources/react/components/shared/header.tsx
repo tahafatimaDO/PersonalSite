@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Resume from '../public/assets/CraigSauersResume2022.pdf';
 
 export default () => (
   <div className="bg-dark" style={{ paddingLeft: '1rem', paddingRight: '1rem' }}>
@@ -51,15 +52,13 @@ export default () => (
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/resume">
-            <a
-              className="nav-link px-2 text-white"
-              href="/Website/public/Assets/CraigSauersResume2022.pdf"
-              target="blank"
-            >
-              Resume
-            </a>
-          </Link>
+          <a
+            className="nav-link px-2 text-white"
+            href={Resume}
+            target="blank"
+          >
+            Resume
+          </a>
         </li>
       </ul>
       <div className="text-end">
