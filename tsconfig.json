@@ -5,6 +5,7 @@
     "./resources/react",
     "public"
   ],
+  "include": ["./global.d.ts"],
   "extends": "./tsconfig.adonis.json",
   "compilerOptions": {
     "outDir": "build",

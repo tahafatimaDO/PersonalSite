@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Resume from '../assets/CraigSauersResume2022.pdf';
 
 export default () => (
   <main>
@@ -13,11 +13,9 @@ export default () => (
             Science and a minor in Mathematics.
           </p>
           <p className="lead p-3">
-            <Link to="/resume">
-              <a href="javascript" target="blank" className="btn btn-lg btn-secondary fw-bold border-white bg-white text-dark">
-                Resume
-              </a>
-            </Link>
+            <a href={Resume} target="blank" className="btn btn-lg btn-secondary fw-bold border-white bg-white text-dark">
+              Resume
+            </a>
           </p>
         </div>
       </div>
