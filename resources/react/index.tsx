@@ -1,7 +1,6 @@
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import 'bootstrap/dist/css/bootstrap.css';
-
 import 'raf/polyfill';
 import 'scss/index.scss';
 import React from 'react';

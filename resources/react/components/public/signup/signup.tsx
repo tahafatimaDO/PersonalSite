@@ -8,7 +8,7 @@ export default () => {
   const [password, setPassword] = useState('');
 
   function validateForm() {
-    // TO-DO: validate credentials exist in database
+    // TO-DO: validate credentials exist in database and are correctly paired
     const regEx = /(.+)@(.+){2,}\.(.+){2,}/;
     if (regEx.test(email.toLowerCase()) && password.length >= 8) {
       return true;
@@ -23,7 +23,7 @@ export default () => {
   // }
 
   return (
-    <div className="Login">
+    <div className="Signup">
       <Form>
         <Form.Group controlId="email">
           <Form.Label>Email</Form.Label>
@@ -51,13 +51,13 @@ export default () => {
             className="custom-btn"
             disabled={!validateForm()}
           >
-            Login
+            Sign-up
           </Button>
         </div>
-        <div className="sign-up">
+        <div className="login-div">
           <p>
-            Don&apos;t have an account? Signup&nbsp;
-            <Link to="/signup">
+            Already have an account? Login&nbsp;
+            <Link to="/login">
               here
             </Link>
             .
