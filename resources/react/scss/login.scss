@@ -1,0 +1,39 @@
+.Login {
+  padding: 3rem 0 10rem;
+}
+
+.Login form {
+  margin: 0 auto;
+  max-width: 20rem;
+  border-style: solid;
+  border-color: grey;
+  padding: 1.5rem;
+}
+
+.custom-btn {
+  margin: 2rem 0;
+  align-items: center;
+  width: 100%;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-form {
+  margin-bottom: 1rem;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 767px) {
+  .Login form {
+    max-width: 40rem;
+  }
+}

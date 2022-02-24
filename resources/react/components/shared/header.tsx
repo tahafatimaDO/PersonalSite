@@ -12,32 +12,12 @@ export default () => (
       </Link>
       <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 nav-center">
         <li className="nav-item">
-          <Link to="/projects">
-            <a
-              className="nav-link px-2 text-white"
-              href="/Website/public/HTML/projects.html"
-            >
-              Projects
-            </a>
-          </Link>
-        </li>
-        <li className="nav-item">
           <Link to="/blog">
             <a
               className="nav-link px-2 text-white"
               href="/Website/public/HTML/blog.html"
             >
               Blog
-            </a>
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link to="/contact">
-            <a
-              className="nav-link px-2 text-white"
-              href="/Website/public/HTML/contact.html"
-            >
-              Contact
             </a>
           </Link>
         </li>
