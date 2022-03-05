@@ -40,7 +40,10 @@ body {
   }
 }
 
+/* Questions for Aziz */
+/* How does SCSS know which tsx file to apply styles to? */
 @import 'home.scss';
 @import 'login.scss';
 @import '404.scss';
-@import 'signup.scss'
+@import 'signup.scss';
+@import 'blog.scss';
