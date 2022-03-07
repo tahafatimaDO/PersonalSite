@@ -5,6 +5,7 @@ import Demo from 'components/public/demo';
 import Login from 'components/public/login';
 import Signup from 'components/public/signup';
 import Blog from 'components/public/blog';
+import Account from 'components/public/account';
 import Header from 'components/shared/header';
 import Footer from 'components/shared/footer';
 import * as ROUTES from 'constants/routes';
@@ -19,6 +20,7 @@ export default () => (
       <Route exact path={ROUTES.LOGIN} component={Login} />
       <Route exact path={ROUTES.SIGNUP} component={Signup} />
       <Route exact path={ROUTES.BLOG} component={Blog} />
+      <Route exact path={ROUTES.ACCOUNT} component={Account} />
       <NotFound />
     </Switch>
     <Footer />
