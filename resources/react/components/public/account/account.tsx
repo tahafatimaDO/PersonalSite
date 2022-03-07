@@ -24,15 +24,15 @@ export default () => (
               </h6>
             </div>
             <div className="row mt-2">
-              <div className="col-md-6">
+              <div>
                 <input type="text" className="form-control" placeholder="First Name" />
               </div>
-              <div className="col-md-6">
+              <div>
                 <input type="text" className="form-control" placeholder="Last Name" />
               </div>
             </div>
             <div className="row mt-3">
-              <div className="col-md-6">
+              <div>
                 <input type="text" className="form-control" placeholder="Email" />
               </div>
             </div>
